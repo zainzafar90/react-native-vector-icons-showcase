@@ -1,4 +1,4 @@
-import Logo from "./Logo";
+import Logo from './Logo';
 
 export default function Header() {
   return (
@@ -48,10 +48,9 @@ export default function Header() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {" "}
+                  {' '}
                   @oblador icons directory
                 </a>
-                .
               </span>
             </h1>
             <dl className="flex flex-wrap justify-center xl:justify-start whitespace-no-wrap text-blue-100 font-medium mt-3 leading-5">
@@ -72,7 +71,7 @@ export default function Header() {
                     ></path>
                   </svg>
                 </dt>
-                <dd>15252 Icons</dd>
+                <dd>~20K Icons</dd>
               </div>
               <div className="flex items-center mx-3 sm:mr-8 mt-3">
                 <dt className="mr-2">
@@ -134,6 +133,31 @@ export default function Header() {
             </dl>
           </div>
           <div className="w-full sm:w-auto flex-none flex flex-col-reverse sm:flex-row sm:items-start space-y-3 space-y-reverse sm:space-y-0 sm:space-x-4 mt-10 mx-auto xl:mx-0">
+            <div>
+              <a
+                href="https://github.com/tailwindlabs/heroicons/archive/v0.4.1.zip"
+                className="group flex"
+              >
+                <div className="w-full sm:w-auto inline-flex items-center justify-center text-indigo-900 group-hover:text-indigo-500 font-medium leading-none bg-white rounded-lg shadow-sm group-hover:shadow-lg py-3 px-5 border border-transparent transform group-hover:-translate-y-0.5 transition-all duration-150">
+                  <svg
+                    width="24"
+                    height="24"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    className="text-indigo-400 mr-3"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 110-18 9 9 0 010 18z"
+                    ></path>
+                  </svg>
+                  Download all
+                </div>
+              </a>
+            </div>
             <a
               href="https://github.com/zainzafar90/react-native-vector-icons-showcase"
               className="group flex"

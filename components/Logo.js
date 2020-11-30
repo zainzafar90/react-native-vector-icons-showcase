@@ -14,7 +14,7 @@ export default function Logo() {
       />
       <path
         fill="none"
-        stroke="#fff"
+        stroke="#FFF"
         strokeWidth="24"
         strokeMiterlimit="10"
         d="M272.931,201.125
@@ -25,7 +25,7 @@ export default function Logo() {
       />
       <path
         fill="none"
-        stroke="#fff"
+        stroke="#FFF"
         strokeWidth="24"
         strokeMiterlimit="10"
         d="M200.469,273.707
@@ -36,7 +36,7 @@ export default function Logo() {
       />
 
       <path
-        fill="#fff"
+        fill="#E91E63"
         d="M300,349.369c-1.019,0-1.881-0.353-2.586-1.058l-36.679-35.386c-0.392-0.313-0.931-0.822-1.617-1.528
   c-0.686-0.705-1.773-1.988-3.262-3.851c-1.489-1.86-2.822-3.771-3.997-5.73s-2.224-4.33-3.145-7.112
   c-0.92-2.782-1.381-5.486-1.381-8.111c0-8.621,2.488-15.361,7.465-20.221c4.977-4.859,11.854-7.289,20.631-7.289

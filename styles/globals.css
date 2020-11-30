@@ -1,10 +1,12 @@
+@import url(../generated/fonts.css);
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @font-face {
-  font-family: "Gilroy";
-  src: url("/assets/fonts/Gilroy/Gilroy-Medium.ttf");
+  font-family: 'Gilroy';
+  src: url('/assets/fonts/Gilroy/Gilroy-Medium.ttf');
   font-style: normal;
   font-weight: 600;
   font-display: swap;
@@ -12,4 +14,11 @@
 
 .header-divider {
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.icons-grid {
+  padding-top: 10rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(calc(160px - 1px), 1fr));
+  gap: 1px;
 }
